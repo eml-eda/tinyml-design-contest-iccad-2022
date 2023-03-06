@@ -1,9 +1,13 @@
+**NEW RELEASE: we released our new, engineered and user-friendly DNAS library named [PLiNIO](https://github.com/eml-eda/plinio). PLiNIO has been used as the main optimization engine to build the proposed classifier. We highly suggest to try PLiNIO for your experiments!**
+
+---
+
 # 2022 ACM/IEEE TinyML Design Contest at ICCAD - M.A.D. AI @ Politecnico di Torino 
 
 ## What's in this repository?
 
 This repository contains four folders:
-1. `python code`: folder with the pyhton training code for the proposed classifier.
+1. `python code`: folder with the python training code for the proposed classifier.
 2. `c_code_l432kc`: folder with the c code generated using STM32CubeMX with X-Cube-AI and Keil uVision for the nucleo-l432kc board.
 3. `c_code_l4a6zg`: folder with the c code generated using STM32CubeMX with X-Cube-AI and Keil uVision for the nucleo-l4a6zg board.
 4. `trained_model`: folder with the trained and deployed onnx model.
